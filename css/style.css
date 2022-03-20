@@ -178,12 +178,10 @@ body .body_container .main_container .projects_list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
 body .body_container .main_container .projects_list .project_list_block {
     width: 25%;
-    margin: 10px auto;
 }
 
 body .body_container .main_container .projects_list .project_list_block .project {
@@ -209,10 +207,12 @@ body .body_container .main_container .projects_list .project_list_block .project
     transition: all .4s;
 }
 
-body .body_container .main_container .projects_list .project_list_block .project h5 {
+body .body_container .main_container .projects_list .project_list_block .project h5 a {
     opacity: 1;
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
+    color: #ffffff;
+    display: block;
 }
 
 body .body_container .main_container .projects_list .project_list_block .project p {
